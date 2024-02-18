@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Chek if CFILE environment variable is set 
+if [ -z "$CFILE" ]; then
+    echo "CFILE environmet variable is not set."
+    exit 1
+fi
+# Extract filename without extenstion
+FILENAME=$(basename "$CFILE" .c)
+
+# Generate assembly file using GCC
+gcc -S -masm=intel "$CFILE" -o
+"$FILENAME.s"
+
+# Chek if assembly was generated successfully
+if [#? -eq 0 ]; then
+   echo "Assembly code generated successfully and saved in $$FILENAME.s"
+else
+   echo "Failed to generate assembly code."
+fi
