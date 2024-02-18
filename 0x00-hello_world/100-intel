@@ -1,4 +1,13 @@
-#!/bin/bash
+#include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+    return (0);
+}
 
 # Chek if CFILE environment variable is set 
 if [ -z "$CFILE" ]; then
@@ -18,3 +27,5 @@ if [#? -eq 0 ]; then
 else
    echo "Failed to generate assembly code."
 fi
+export CFILE=main.c
+./100-intel
