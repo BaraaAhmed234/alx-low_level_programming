@@ -13,8 +13,6 @@ int main()
 		putchar(i); /* lower case alphabet */
 	}
 
-	putchar('\n'); /* new line */
-
 	for (i = 65; i < 91; i++)
 	{
 		putchar(i); /* uppercase alphabet */
