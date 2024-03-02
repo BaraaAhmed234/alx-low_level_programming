@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main Entry
- * always return 0 (success)
+ * main - this is the main function
+ *
+ * Return: always 0 (success)
  *
  */
 /* betty style doc for function main goes here */
