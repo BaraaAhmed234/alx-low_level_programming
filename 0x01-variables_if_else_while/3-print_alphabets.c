@@ -4,7 +4,8 @@
  * always return 0 (success)
  *
  */
-int main()
+/* betty style doc for function main goes here */
+int main(void)
 {
 	int i;
 
