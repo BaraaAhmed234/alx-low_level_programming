@@ -7,6 +7,8 @@
 /* betty style doc for function main goes here */
 int main(void)
 {
+	/*program types the lowercases without q and e*/
+
 	char letter = 'a';
 
 	while (letter <= 'z')
@@ -20,5 +22,5 @@ int main(void)
 
 	putchar('\n');
 
-	return 0;
+	return(0);
 }
