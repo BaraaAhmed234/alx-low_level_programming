@@ -7,11 +7,11 @@
 /* betty style doc for function main goes here */
 int main(void)
 {
-	char letter;
+	char i;
 
-	while (letter = 'a' letter <= 'z' letter++)
+	while ( i = 97; i < 123; i++)
 	{
-	if (letter != 'q' && letter != 'e')
+	if ( != 'q' && i != 'e')
 	{
 		putchar(letter);
 	}
