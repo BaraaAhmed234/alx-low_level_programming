@@ -1,23 +1,24 @@
 #include <stdio.h>
 /**
- * main - this the main function
+ * main  - this is the main function
  *
  * Return : always 0(success)
  */
 /* betty style doc for function main goes here */
 int main(void)
 {
-	char i;
+	char letter = 'a';
 
-	while ( i = 97; i < 123; i++)
+	while (letter <= 'z')
 	{
-	if ( != 'q' && i != 'e')
+	if (letter != 'q' && letter != 'e')
 	{
 		putchar(letter);
 	}
+	letter++;
 	}
+
 	putchar('\n');
 
 	return 0;
 }
-
