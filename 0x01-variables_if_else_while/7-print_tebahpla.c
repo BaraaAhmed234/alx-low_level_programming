@@ -6,6 +6,7 @@
 /* betty style doc for main function goes here */
 int main(void)
 {
+	/* my code goes here */
 	int y;
 
 	for (y = 'z'; y >= 'a'; y--)
