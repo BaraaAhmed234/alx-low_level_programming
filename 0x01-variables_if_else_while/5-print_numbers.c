@@ -9,14 +9,12 @@ int main(void)
 {
 	/* single digit numbers of base 10 starting from 0 */
 
-	int number = 0;
-
-	for (int i = 0; i < 10; i++)
+	int i = 0;
+	while (i < 10)
 	{
-		putchar(number + '0');
-	number++;
+		printf("%d\n", i);
+		i++;
 	}
-	putchar('\n');
 
 	return (0);
 }
