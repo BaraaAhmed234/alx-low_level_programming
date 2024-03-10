@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - here is the main function
- * return : always 0(success)
+ * Return : always 0 (success)
  */
 /* betty style doc for the main function goes here */
 int main(void)
